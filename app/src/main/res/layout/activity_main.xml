@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Spinner
+                android:id="@+id/kota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/iDtanggal"
+                    android:text="Tanggal"
+                    android:textColor="#FFFEFE"
+                    android:layout_marginBottom="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Subuh"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/subuh"
+                        android:textColor="#FFFEFE"
+                        android:text="12"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Dzuhur"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/dzuhur"
+                        android:text="12"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Ashar"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/ashar"
+                        android:text="12"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Maghrib"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/maghrib"
+                        android:text="12"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="Isya"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/isya"
+                        android:text="12"
+                        android:textColor="#FFFEFE"
+                        android:layout_marginBottom="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
